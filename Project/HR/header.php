@@ -10,7 +10,6 @@ ob_start();
   <title>Hr management</title>
   <link rel="shortcut icon" type="image/png" href="./assets/images/logos/favicon.png" />
   <link rel="stylesheet" href="../Assets/Templates/Hr/assets/css/styles.min.css" />
-
 </head>
 
 <body>
@@ -21,8 +20,8 @@ ob_start();
     <!--  App Topstrip -->
     <div class="app-topstrip bg-dark py-6 px-3 w-100 d-lg-flex align-items-center justify-content-between">
       <div class="d-flex align-items-center justify-content-center gap-5 mb-2 mb-lg-0">
-        <a class="d-flex justify-content-center" href="HRHomepage.php">
-          <img src="../Assets/Templates/Hr/assets/images/logos/logo-wrappixel.svg" alt="" width="150">
+        <a class="d-flex justify-content-center" href="">
+        <h3 style="color:white">HR Management</h1>
         </a>
 
         
@@ -42,14 +41,7 @@ ob_start();
     <aside class="left-sidebar">
       <!-- Sidebar scroll-->
       <div>
-        <div class="brand-logo d-flex align-items-center justify-content-between">
-          <a href="./index.html" class="text-nowrap logo-img">
-            <img src="../Assets/Templates/Hr/assets/images/logos/logo.svg" alt="" />
-          </a>
-          <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
-            <i class="ti ti-x fs-6"></i>
-          </div>
-        </div>
+       
         <!-- Sidebar navigation-->
         <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
           <ul id="sidebarnav">
@@ -70,7 +62,7 @@ ob_start();
               <a class="sidebar-link justify-content-between"  
                 href="EmployeeRegistration.php" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
-                  
+                 
                   <span class="hide-menu">Employee Registration</span>
                 </div>
                 
@@ -112,7 +104,7 @@ ob_start();
               <li class="sidebar-item">
               <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
-                 
+                  
                   <span class="hide-menu">Works</span>
                 </div>
                 
@@ -150,7 +142,7 @@ ob_start();
             <li class="sidebar-item">
               <a class="sidebar-link justify-content-between has-arrow" href="javascript:void(0)" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
-                 
+                  
                   <span class="hide-menu">Leave Requests</span>
                 </div>
                 
